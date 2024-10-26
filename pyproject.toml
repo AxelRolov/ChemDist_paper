@@ -1,3 +1,16 @@
 [project]
-name = "chemdist"
+name = "ChemDist_paper"
 version = "0.1.0"  # or whatever version is appropriate
+authors = [
+    {name = "Alexey Orlov", email = "data2scale@gmail.com"},
+]
+license = {text = "MIT"}
+dependencies = []
+requires-python = ">=3.11"
+
+[tool.pdm]
+distribution = true
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
